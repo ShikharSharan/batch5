@@ -1,0 +1,68 @@
+<html>
+<style>
+
+ div
+{
+border:2px solid red ;
+margin:200px;
+width:300px;
+}
+</style>
+<head>
+<script>
+let student=[{rollNo:101, name:"asha",fee:200},
+                    {rollNo:102, name:"pooja",fee:400},
+                    {rollNo:103, name:"pooja",fee:500}];
+                        
+
+const handleSearch=()=>
+{
+let i ;
+let f=0;
+let tRoll=document.getElementById("t1").value;
+for(i=0;i<student.length;i++)
+{
+if(tRoll==student[i].rollNo)
+{
+    f=1;
+    break;
+}
+}
+if(f==0)
+{
+alert("not ......");
+}
+else
+{
+alert("yes.....");
+}
+
+
+}
+
+
+</script>  
+
+</head>
+<body>
+<div>
+<p><input type="text"  id="t1">
+<button onclick="handleSearch()">Search</button>
+</body>
+</div>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
