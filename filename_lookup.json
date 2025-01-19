@@ -1,4 +1,5 @@
-{
+[
+    {
     "source1_filename": "raw_power_plant_data_with_assets.csv",
     "source1_path": "Landing",
     "source1_container": "rawdata",
@@ -6,4 +7,5 @@
     "sink1_container": "transformeddata",
     "sink1_path": "transformeddata",
     "sink1_filename": "transformeddata.csv"
-}
+    }
+]
