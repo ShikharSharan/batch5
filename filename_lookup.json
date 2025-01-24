@@ -6,8 +6,8 @@
     "sink1_storage_account": "energytransformedlevel1",  
     "sink1_container": "transformeddata",
     "sink1_path": "transformeddata",
-    "sink1_filename": "transformeddata.csv",
-    "sink1_error_filename": "errors.csv",
+    "sink1_filename": "transformeddata.parquet",
+    "sink1_error_filename": "errors.parquet",
     "source2_table_name":"1transformed"
     }
 ]
